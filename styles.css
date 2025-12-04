@@ -20,7 +20,6 @@ body{
 header{
     padding-bottom: 15rem;
     margin: 0 auto;
-    background-color: var(--dk-blue);
     background-image: url("/swiss-valley.jpg");
     background-size: 100%;
     align-items: center;
