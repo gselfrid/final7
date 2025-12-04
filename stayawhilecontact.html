@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Stay-A-While-Inn" content="Stay A While Inn is a resort that is awesome and super">
+    <title>Stay-A-While Inn</title><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Pompiere&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html"><h1>Stay-A-While Inn</h1></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a href="stayawhilecontact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <main>
+        <section id="contactgrid">
+            <section id="contacttext">
+                <h2>Contact Us</h2>
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+                <p>Required fields are marked with an asterisk (<span class="required">*</span>).</p>
+                <img src="swiss-peak.jpg" alt="swiss peak image">
+            </section>
+            <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                    <label for="my-name">Name<span class="required">*</span></label>
+                    <input type="text" name="my-name" id="my-name" required>
+                    <label for="my-phone">Phone<span class="required">*</span></label>
+                    <input type="tel" name="my-phone" id="my-phone" required>
+                    <label for="my-email">Email<span class="required">*</span></label>
+                    <input type="email" name="my-email" id="my-email" required>
+                    <fieldset>
+                        <legend>Preferred Contact Method</legend>
+                        <input type="radio" name="contact-pref" id="pref-email" checked>
+                        <label for="pref-email">Email</label>
+                        <input type="radio" name="contact-pref" id="pref-phone">
+                        <label for="pref-phone">Phone</label>
+                    </fieldset>
+                    <label for="my-comments">Comments</label>
+                    <textarea name="my-comments" id="my-comments" required></textarea>
+                    <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy;2023</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+</body>
